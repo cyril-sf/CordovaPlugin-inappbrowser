@@ -18,7 +18,9 @@
       "git": "https://github.com/apache/cordova-plugin-inappbrowser.git",
       "tag": "4.0.0"
     },
-    "source_files": "src/ios/*.{h,m}",
+    "ios": {
+      "source_files": "src/ios/*.{h,m}"
+    },
     "preserve_paths": [
       "*.md",
       "docs/**/*.md",
